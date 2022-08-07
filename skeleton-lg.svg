@@ -2,21 +2,17 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800"
 	xml:space="preserve">
 	<g id="circle">
-		<circle cx="400" cy="400" r="384" fill="none" stroke="black" stroke-width="4" />
 		<circle cx="400" cy="400" r="396" fill="none" stroke="black" stroke-width="8" />
-		<circle cx="400" cy="400" r="288" fill="none" stroke="black" stroke-width="8" />
+		<circle cx="400" cy="400" r="384" fill="none" stroke="black" stroke-width="4" />
 		<circle cx="400" cy="400" r="300" fill="none" stroke="black" stroke-width="4" />
+		<circle cx="400" cy="400" r="288" fill="none" stroke="black" stroke-width="8" />
 	</g>
 	<g id="text">
-		<!-- 316.2 == sqrt(300*300 + 100*100) -->
-		<path id="xdu" d="M 100 300 A316.2,316.2,0,0,1,700 300" stroke="none" fill="none"/>
-		<!--  -->
-		<path id="isc" d="M 45 340 A360,360,180,1,0,755 340" stroke="none" fill="none"/>
+		<path id="xdu" d="M 93 309.72 A 320 320 0 0 1 707,309.72" stroke="none" fill="none"/>
+		<path id="isc" d="M 45 329.16 A 362 362 0 1 0 755,329.16" stroke="none" fill="none"/>
 		<text font-size="63px" font-family="Baskerville" color="black">
-			<!-- 790.06 == arclen(100,300;700,300;r=316.2) -->
-			<textPath xlink:href="#xdu" textLength="790.06">✽&nbsp;&nbsp;XIDIAN UNIVERSITY&nbsp;&nbsp;✽</textPath>
-			<!-- 1251.94 == pi*r*2 - arclen(45,340;755,340;r=360) -->
-			<textPath xlink:href="#isc" textLength="1252">INFORMATION&nbsp;&nbsp;SECURITY&nbsp;&nbsp;CLUB</textPath>
+			<textPath xlink:href="#xdu" textLength="822.26">✽ XIDIAN UNIVERSITY ✽</textPath>
+			<textPath xlink:href="#isc" textLength="1279.87">INFORMATION SECURITY CLUB</textPath>
 		</text>
 	</g>
 </svg>
